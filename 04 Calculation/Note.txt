@@ -1,0 +1,4 @@
+Prompt04:- Calculation
+Design a calculation element or interface.Is it a standard calculator for somthing such as a home mortgage or aut loan? Is is to forecast a calculation such as a for a credit score? Is it for a phone, a tablet, a web app.
+
+

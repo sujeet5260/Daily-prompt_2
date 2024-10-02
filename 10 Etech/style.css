@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #FAF5FC;
+    font-family: helvetica;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+header > nav{
+    width: 60%;
+    height: 6vh;
+    /* background-color: aqua; */
+    position: fixed;
+    z-index: 100;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+   margin: 1.25rem ;
+
+}
+nav> ul{
+    display: flex;
+    gap: 20%;
+}
+nav > ul li{
+    list-style-type: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+nav > .btn button{
+    
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.313rem;
+
+}
+nav .btn .sing-btn{
+    
+    border: 1px solid black;
+    /* border-image: linear-gradient(#C076F1,#F389BA); */
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+nav .btn .trail-btn{
+  background-image: linear-gradient(#C076F1,#F389BA);
+  color: white;
+  font-size: 1.2rem;
+    font-weight: 400;
+  
+}
+
+/* ============================= PAGE 1 ========================================= */
+.page1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* overflow-x:hidden ; */
+}
+.page1-fillar{
+    height: 10vh;
+}
+.page1-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+    /* background-color: #F389BA; */
+}
+.page1-content .left{
+    width: 50%;
+}
+.page1-content .left > .left-div {
+    width: 90%;
+    margin-left: 3.75rem;
+}
+.page1-content .left h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+.page1-content .left p{
+    color: #9B999B;
+    font-size: 1.563rem;
+    font-weight: 400;
+} 
+
+.page1-content .right{
+    width: 50%;
+}
+.page1-content .right img{
+    width: 80%;
+    /* overflow: hidden; */
+}
+.enrole-btn{
+    background-image: linear-gradient(#C076F1,#F389BA);
+    color: white;
+    font-size: 1.2rem;
+      font-weight: 400;
+      padding: 0.625rem 1.25rem;
+      margin-top: 1.875rem;
+      margin-left: 3.75rem;
+    border-radius: 0.313rem;
+}
+
+.slider{
+   width: 100vw;
+   height: 10vh;
+   color:#F6DEFE;
+   background-image: linear-gradient(#B772FF,#D97FD4);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    gap: 10%;
+}
+/* ================================ Page 2 ==========================*/
+
+.page2{
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+
+.page2 .search-area > h1{
+   
+    text-align: center; 
+    margin: 30px 0;
+   
+}
+.search-area .search{
+   
+    overflow-x: hidden;
+     display: flex;
+     justify-content: center;
+     gap: 1%;
+     
+}
+
+
+.page2 input{
+    width: 450px;
+    height: 38px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-size: 25px;
+    background-position-x: left;
+    background-position-y: center;
+    backg
+    
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.page2 button{
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(#B772FF,#D97FD4);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.page2 .page2-content{
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+.page2-content .left{
+    width: 50%;
+  
+    display: flex;
+    justify-content: center;
+    
+}
+.page2 .left div{
+    
+    width: 60%;
+    display: flex;
+    align-items: center;  
+   
+}
+.page2 .left div img{
+    width: 90%;
+}
+.page2-content .right{
+    width: 50%;
+   
+}
+/* .page1-content .right > h1 >span{
+    color: linear-gradient(#B772FF,#D97FD4) ;
+
+} */
+
+.page2-content .right .point{
+    display: flex;
+    gap: 5%;
+    margin-top: 20px;
+
+}
+.page2-content .right .point p{
+    /* color: #B1B1B1; */
+    margin-top:15px ;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.page2-content .right .point img{
+    width: 40px;
+    
+}
+.page2-content .right .point .icon{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    background-color: #B274FF;
+}
+.page2-content .right .point-content{
+    width: 45%;
+}

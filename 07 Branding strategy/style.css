@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+
+}
+
+
+body{
+    
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+
+}
+
+nav, nav div, nav  ul{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+nav{
+    width: 100%;
+    gap: 40%;
+    padding: 1%;
+    background-color: #F6E6CF;
+    
+    
+}
+.nav-l > h1{
+    font-family: Protest Guerrilla;
+    font-size: 2.5rem;
+    
+}
+nav > .nav-l{
+    gap: 50%;
+
+}
+.nav-l > ul{
+    gap: 10%;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+.nav-r{
+    gap: 20%;
+    font-size: 1.6rem;
+}
+
+
+/* ============================== Page 1 ============================== */
+
+.page1{
+    width: 100vw;
+    background-color: #F6E6CF;
+   
+
+
+}
+
+.p1-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.l{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l > .cont{
+    width: 60%;
+}
+.cont p{
+    font-size: 1.5rem;
+    margin: 5% 1%;
+}
+.cont > h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.cont button{
+    margin: 2% 1%;
+    padding: 2% 8%;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+.r{
+    width: 50%;
+}
+.r > img{
+    width: 60%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+/* ========================== PAGE 2 ================================ */
+
+
+.page2{
+    width: 100vw;
+
+}
+.p2-wrapper{
+    width: 100%;
+}
+
+.p2-wrapper > .heading{
+    width: 100%;
+    height: 7vh;
+    
+    
+}
+.p2-wrapper .heading h1{
+    margin-left: 12%;
+    padding-top: 1%;
+    
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.card1{
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card1 img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+

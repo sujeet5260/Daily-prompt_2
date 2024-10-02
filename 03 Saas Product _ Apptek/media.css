@@ -1,0 +1,122 @@
+
+
+@media (min-width: 360px) and (max-width: 600px) {
+
+
+    nav .menu , nav button{
+        display: none;
+    }
+    nav i{
+        display: initial;
+        margin-right: 5%;
+        font-size: 2rem;
+    }
+    nav h1:first-child{
+        margin-left: 5%;
+    }
+
+    nav{
+        justify-content: space-between;
+        width: 100vw;
+        height: 10%;
+    }
+
+
+    /*======================= PAGE 1 ========================*/
+  
+
+      .page1{
+        width: 100vw;
+      }
+
+      .page1-wrapper{
+           display: initial;
+       }
+      .page1-l{
+           width: 100vw;
+           display: initial;
+           
+        
+        }
+
+        .page1-l .content {
+
+            width: 80vw;
+            margin-left: 5%;
+        
+        }
+        .page1-l .content .heading h1{
+            font-size: 2rem;
+            font-family: Helvetica, sans-serif;
+            font-weight: 900;
+            margin-bottom: 4%;
+        }
+        .page1-l .content p{
+            font-size: 1.1rem;
+            margin-bottom: 4%;
+            color: #89B0EC;
+        }
+        
+        .page1-l .content button{
+        
+            padding: 3% 6%;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: white;
+            background-color: #0E1552;
+            border-radius: 5rem;
+        
+        }
+        .page1-r{
+            width: 100vw;
+        }
+    
+  }
+
+
+
+
+
+
+/*=======================================================================================*/
+
+  @media (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    nav .menu , nav button{
+        display: none;
+
+    }
+    nav i{
+        display: initial;
+        margin-right: 5%;
+        font-size: 2rem;
+    }
+    nav h1:first-child{
+        margin-left: 5%;
+    }
+
+    nav{
+        justify-content: space-between;
+        width: 100vw;
+        height: 10%;
+    }
+
+    /*======================= PAGE 1 ========================*/
+
+
+    .page1-wrapper{
+        display: initial;
+    }
+
+    .page1-l{
+        width: 100vw;
+    }
+    .page1-r{
+        width: 100vw;
+
+    }
+    .page1-l .content button{
+        margin-bottom: 3%;
+    }
+    
+  }
