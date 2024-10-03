@@ -9,19 +9,77 @@
     header > nav > .menu-icon > i{
         color: white;
     }
+
+    /* ------------------------- Page 1 ------------------ */
+
+    .page1 > .page1-wrapper > .page1-content{
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        /* z-index: 10; */
+       
+   }
+   .page1 > .page1-wrapper > .page1-content P{
+    color: gray;
+    font-size: .5rem;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+}
+.page1 > .page1-wrapper > .page1-content h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
 }
 
 
-
+/* ============================ 1024 ==================== */
 
 @media (min-width: 601px) and (max-width: 1024px){
 
     nav {
         justify-content: space-between;
     }
-    header > nav > .menu > ul > li{
-        font-size: 1.1rem;
+
+    header > nav > .menu{
+        width: 60%;
+        
+    
+        
+    }
+    header > nav > .menu > ul{
+       
+        gap: 4%;
+    
+    }
+    header > nav > .menu > ul li{
+        font-size: .9rem;
     }
 
+
+
+ /* --------------------------- PAGE 1 ------------------------ */
+    .page1 > .page1-wrapper > .page1-content{
+        position: absolute;
+        right: 2%;
+        top: 50%;
+        /* z-index: 10; */
+       
+   }
+
+    .page1 > .page1-wrapper > .page1-content P{
+        color: gray;
+        font-size: .5rem;
+        font-weight: 300;
+        letter-spacing: 0.25rem;
+    }
+    .page1 > .page1-wrapper > .page1-content h1{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
 
 }

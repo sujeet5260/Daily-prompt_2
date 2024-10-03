@@ -11,6 +11,7 @@ html,body{
 body{
     width: 100vw;
     overflow-x: hidden;
+    background-color: #060606;
 }
 
 
@@ -18,10 +19,10 @@ header{
     width: 100vw;
 }
 
-header >nav {
+header > nav {
     width: 100%;
     height: 10vh;
-    background-color:black;
+    /* background-color:black; */
     color: white;
     display: flex;
     align-items: center;
@@ -40,4 +41,46 @@ header > nav >.menu-icon{
 }
 header > nav > .menu > ul > li{
     font-size: 1.3rem;
+}
+
+
+/* ====================== PAGE 1 ========================== */
+
+.page1{
+    width: 100vw;
+    height: 80%;
+    background-color: yellow;
+   
+   
+}
+.page1-wrapper{
+    position: relative;
+    width: 100%;
+    
+}
+.page1 > .page1-wrapper > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.page1 > .page1-wrapper > .page1-content{
+     position: absolute;
+     right: 15%;
+     top: 50%;
+     /* z-index: 10; */
+    
+}
+.page1 > .page1-wrapper > .page1-content P{
+    color: gray;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+}
+.page1 > .page1-wrapper > .page1-content h1{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 0.2em;
 }
