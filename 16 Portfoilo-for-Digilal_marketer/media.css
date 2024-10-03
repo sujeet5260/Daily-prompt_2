@@ -1,0 +1,27 @@
+@media (min-width: 360px) and (max-width: 600px){
+
+    header > nav > .menu{
+        display: none;
+    }
+    header > nav > .menu-icon{
+        display: initial;
+    }
+    header > nav > .menu-icon > i{
+        color: white;
+    }
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px){
+
+    nav {
+        justify-content: space-between;
+    }
+    header > nav > .menu > ul > li{
+        font-size: 1.1rem;
+    }
+
+
+}
