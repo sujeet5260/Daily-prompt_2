@@ -1,0 +1,1 @@
+Prompt 13 :-  Create a newsletter signup form with responsive layout and animation

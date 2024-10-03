@@ -1,0 +1,1 @@
+#prompt17:-  Design a blog post page with responsive typography and images.
