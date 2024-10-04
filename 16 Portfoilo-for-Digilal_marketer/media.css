@@ -32,6 +32,32 @@
     letter-spacing: 0.2em;
 }
 
+  /* ------------------------- PAGE 2 ------------------- */
+
+ .page2 > .page2-wrapper {
+    width: 80%;
+    flex-direction: column;
+    margin: 0 10%;
+   
+  }
+  .page2-right > h1:first-child{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.page2-right > h2{
+
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+.page2-right  p{
+    color: white;
+    font-size: 1rem;
+   margin-top: 3%;
+}
+
 }
 
 
@@ -80,6 +106,31 @@
         font-size: 3rem;
         text-align: center;
         letter-spacing: 0.2rem;
+    }
+
+    /* -------------------- Page 2---------------- */
+
+    .page2 > .page2-wrapper {
+        width: 90%;
+        margin: 0 5%;
+       
+      }
+      .page2-right > h1:first-child{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    .page2-right > h2{
+    
+        font-size: 2rem;
+        font-weight: 300;
+    
+    }
+    .page2-right  p{
+        color: white;
+        font-size: 1.2rem;
+       margin-top: 3%;
     }
 
 }
