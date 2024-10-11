@@ -48,7 +48,13 @@ nav > .ul >ul{
 }
 nav > .ul >ul > li{
     font-size: 1.2rem;
+    font-weight: 600;
     color: white;
+}
+nav > .ul >ul > li:hover{
+    cursor: pointer;
+    color: #F4AF00;
+
 }
 nav > .btn > button{
     padding: 1rem 2rem;
@@ -60,4 +66,7 @@ nav > .btn > button{
 }
 nav > .btn > button:hover{
     background-color:gray ;
+}
+nav > .menu-icon{
+    display: none;
 }
