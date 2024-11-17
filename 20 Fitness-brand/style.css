@@ -66,3 +66,65 @@ nav > .btn > button:hover{
 nav > .menu-icon{
     display: none;
 }
+
+
+
+
+/* ============================== main page ============================ */
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    padding: 1px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.page1 .left{
+    width: 50%;
+    height: 90%;
+    padding-top: 200px;
+    padding-left: 100px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: start;
+}
+.page1 .left h3{
+    color: rgb(202, 0, 0);
+    font-weight: 700;
+}
+.page1 .left h1{
+    letter-spacing: 0.08em;
+    font-size: 40px;
+}
+.page1 .left .button{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.page1 .left .button:active{
+    opacity: 0.8;
+}
+.right{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .inner-div{
+    margin-top: 150px;
+    background: linear-gradient(to bottom right , rgba(255, 0, 0, 0.801),rgba(255, 0, 0, 0))
+}
+.right .inner-div img{
+    width: 500px;
+}
