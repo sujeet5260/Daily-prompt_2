@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/pexels-danielabsi-952670.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-heading{
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.address{
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    width: 300px;
+    height: 390px;
+    background-color: rgba(128, 128, 128, 0.527);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 0px 0px 60px; 
+}
+.address h3{
+    color: wheat;
+}
+.address .add{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.address .add h6{
+    color: black;
+}
+.address .add h6 i{
+    font-size: 12px;
+    margin-right: 8px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 50%;
+}
+.address .add p{
+    color: white;
+    font-size: 13px;
+}
+.main{
+    width: 450px;
+    height: 550px;
+    top: 0px;
+    left: 250px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.main::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(0deg, transparent,
+    transparent,#00eeff,#fffb00,#fffb00);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.main::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(0deg, transparent,
+    transparent,#91ff00,#fffb00,#fffb00);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.main form{
+    position: absolute;
+    inset: 4px;
+    padding: 0px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 92, 92);
+}
+.main form h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.main form .inputbox{
+    position: relative;
+    width: 350px;
+    margin-top: 35px;
+}
+.main form .inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.main form .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.main form .inputbox input:valid ~ span,
+.main form .inputbox input:focus ~ span{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-35px);
+}
+.main form .inputbox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.main form .inputbox input:valid ~ i,
+.main form .inputbox input:focus ~ i{
+    height: 44px;
+}
+.main form input[type = "submit"]{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 25px;
+}
+.main form input[type="submit"]:active{
+    opacity: 0.8;
+}
